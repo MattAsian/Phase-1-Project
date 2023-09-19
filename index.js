@@ -36,9 +36,11 @@ function toggleDarkMode() {
   if (body.classList.contains('dark-mode')) {
     body.classList.remove('dark-mode');
     body.classList.remove('dark-container');
+    body.classList.remove('h1-dark');
   } else {
     body.classList.add('dark-mode');
     body.classList.add('dark-container');
+    body.classList.add('h1-dark');
   }
 }
 

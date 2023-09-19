@@ -28,3 +28,11 @@ body.dark-mode {
 body.dark-container {
     color:white
 }
+
+h1 {
+    margin: auto;
+}
+
+h1-dark {
+    color:white
+}
